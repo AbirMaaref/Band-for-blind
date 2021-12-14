@@ -23,7 +23,6 @@ obstacles in front of them using a mobile app to
 give them a warning .
 
 Objectif:
--help them
 -a small way that can protect their lives
 -they felt they were a little far from the dangers
 
@@ -31,14 +30,13 @@ Objectif:
 List of devices:
 ESP32 card
 Ultrasonic sensor
-Module GSM/GPRS
 Male and/or female wires/pins
-Button 
-Test Board
 
 
 Installation and prepartion instrcutions: 
-- Choice of materials
-- Wiring of the materiel
-- Coding( arduino IDE / APP inventor )
-- Implementation 
+- coding in arduino IDE environment 
+- wiring ultrasonic sensor which it have 4 pins : GND ---> GND pin of ESP32
+                                                  VCC ---> 5V pin of ESP32
+                                                  TRIGGER_PIN ---> pin 12
+                                                  ECHO_PIN ---> pin 13
+- manipulated with a mobile application in App Inventor  ( code : image insered in GitHub )
